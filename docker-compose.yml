@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+
+  mlops-api:
+
+    build: .
+
+    container_name: mlops-api
+
+    ports:
+      - "8000:8000"
+
+    restart: always
